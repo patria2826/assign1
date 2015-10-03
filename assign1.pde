@@ -12,13 +12,13 @@ PImage trea;
 void setup () {
   size(640,480) ;
   background(255);
-  bg1 = loadImage("bg1.png");
-  bg2 = loadImage("bg2.png");
-  enemy1 = loadImage("enemy.png");
-  enemy2 = loadImage("enemy.png");
-  fight = loadImage("fighter.png");
-  hp = loadImage("hp.png");
-  trea = loadImage("treasure.png");
+  bg1 = loadImage("img/bg1.png");
+  bg2 = loadImage("img/bg2.png");
+  enemy1 = loadImage("img/enemy.png");
+  enemy2 = loadImage("img/enemy.png");
+  fight = loadImage("img/fighter.png");
+  hp = loadImage("img/hp.png");
+  trea = loadImage("img/treasure.png");
   
   ha=floor(random(31,220)); //hp// 
   tx=floor(random(30,500)); //treasure//
